@@ -45,21 +45,12 @@ Thumbs.db
 *.log
 logs/
 
-# Data files (use Git LFS instead)
-dataset/*.pkl
-dataset/*.bin
-*.pkl
-*.pt
-*.pth
-*.bin
-*.pkl.*
+# Data files - managed by Git LFS (see .gitattributes)
+# Note: dataset/*.pkl, *.pkl, *.pt, *.bin, *.pkl.* are tracked via LFS
 
 # Checkpoints
-bbv_checkpoints/
 checkpoints/
 *.ckpt
-*.pt
-*.pth
 
 # Compressed files
 *.tar
@@ -81,12 +72,6 @@ checkpoints/
 *.o
 *.cu.o
 *.ptx
-
-# Model files (use Git LFS)
-*.pt
-*.pth
-*.onnx
-*.safetensors
 
 # Experiment results
 results/
@@ -117,3 +102,9 @@ docs/_build/
 
 # PyTorch Lightning
 lightning_logs/
+
+# Large files split into parts (ignored to avoid git push errors)
+bcsd_experiment/bcsd_embs.pkl
+dataset/train_triple_group_dataset.pkl
+dataset/test_triple_bcsd_dataset.pkl
+
