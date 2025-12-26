@@ -1,0 +1,119 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+logs/
+
+# Data files (use Git LFS instead)
+dataset/*.pkl
+dataset/*.bin
+*.pkl
+*.pt
+*.pth
+*.bin
+*.pkl.*
+
+# Checkpoints
+bbv_checkpoints/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+
+# Compressed files
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# CUDA compilation artifacts
+*.o
+*.cu.o
+*.ptx
+
+# Model files (use Git LFS)
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Experiment results
+results/
+outputs/
+runs/
+
+# Profiling
+*.prof
+*.trace
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+*.coverage
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+.cache
+
+# Sphinx documentation
+docs/_build/
+
+# PyTorch Lightning
+lightning_logs/
